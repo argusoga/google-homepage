@@ -1,0 +1,227 @@
+
+*{
+	text-decoration: none;
+}
+
+a {color: #404040;
+}
+a:hover{text-decoration: underline;}
+#top{	
+	width: 100%;
+	height:35px;
+	position: fixed;
+	top: 10px;
+}
+
+.account{	
+	font-size: 13px;
+	font-family: sans-serif;
+	float: right;
+	padding:0 32px 0 0;
+}
+
+#du{
+	width: 60px;
+	text-align: right;
+	vertical-align: middle;
+	margin-right: 15px;
+	}
+
+#du:hover{
+	text-decoration: underline;
+}
+
+#gmail{	
+	width:34px;
+	text-align: right;
+	vertical-align: middle;
+	margin-right: 12px;
+}
+
+#gmail:hover{
+	text-decoration: underline;
+}
+#Bilder{	
+	width:34px;
+	text-align: right;
+	vertical-align: middle;
+	margin-right: 17px;
+}
+
+#Bilder:hover{
+	text-decoration: underline;
+}
+#grid{	
+	width: 16px;
+	height:16px;
+	opacity:0.6;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+
+#grid:hover{
+	opacity: 0.8;
+}
+
+
+span div{	
+	display: inline-block;
+}
+
+#login{	
+	line-height: 28px;
+	font-weight: bold; 
+	font-size:13px;
+	background-color: #4d90fe;
+	color: #fff;
+	border-radius: 2px;
+	height: 100%;
+	width: 55px;
+	padding:0 10px;
+	text-align: center;
+	border: 1px solid #4285f4;
+	margin:3px;
+}
+
+#locallogo{
+	height:95px;
+	width:265px;
+	margin: 190px auto 0 auto;
+	position: relative;
+	margin: auto;
+}
+
+#logo{	
+	position: relative;
+	display: block;
+	width:265px;
+	height:95px;
+	margin: 190px auto 0px auto;
+}
+#Sverige{
+	color: #777;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	position: absolute;
+	display: inline;
+	left: 215px;
+	top:71px;
+ 	z-index: 1;
+}
+
+#input{	
+	position: absolute;
+	display: inline;
+	text-align: center;
+	margin-top: 28px;
+	width: 100%;
+	height: 25px;
+}
+
+#ruta{	padding:0 8px;
+	position: relative;
+	width: 550px;
+	min-width: 100px;
+	height: 25px;
+	font: 18px arial,sans-serif;
+	color: #666;
+}
+
+#tia{display: inline-block;
+	position:relative;
+	margin-left:-60px;
+	width:19px;
+	height:11px;
+	opacity: 0.6;
+}
+
+#tia:hover{
+	opacity: 0.8;
+}
+#mic{display: inline-block;
+	position:relative;	
+	width:14px;
+	height:19px;
+	opacity: 0.6;
+	z-index: 1;
+	top: 3px;
+	margin-left: 10px;
+	}
+
+#mic:hover{
+	opacity: 0.8;
+}
+#buttons{
+	position:relative;
+	display: block;
+	width: 95%;
+	top: 72px;
+	height:30px;
+	font-family: sans-serif;
+	text-align: center;
+	margin:0 auto;
+}
+
+#form{
+	display: inline-block;
+}
+#gtg{	
+	width:92px;
+	color: #444;
+	font-weight: bold;
+	font-size: 11px;
+	background-color: #f2f2f2;
+	height: 30px;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius:2px;
+}
+
+#gtg:hover{
+	border: 1px solid #b4b4b4;
+}
+#jht{	color: #444;
+		margin-left: 12px;
+		font-weight: bold;
+ 		font-size: 11px;
+		background-color: #f2f2f2;
+		height: 30px;
+		border: 1px solid rgba(0,0,0,0.1);
+		border-radius:2px;}
+
+#jht:hover{border: 1px solid #b4b4b4;
+}
+
+#bottom{height: 40px;
+background-color: #f2f2f2;
+position: fixed;
+bottom: 0;
+left:0;
+width: 100%;
+border-top: 1px solid #e4e4e4;}
+span.bl{
+	display:block-inline;
+	font-size: small;
+	font-family: sans-serif;
+	float: left;
+	padding:10px;
+	color: #666;
+	height: 100%;
+	vertical-align: middle;
+	margin:3px 0 0 19px;
+	word-spacing: 28px;
+}
+span.br{
+	display:block-inline;
+	font-size: small;
+	font-family: sans-serif;
+	float: right;
+	padding:10px;
+	color: #666;
+	height: 100%;
+	margin:3px 19px 0 0;
+	vertical-align: middle;
+	word-spacing: 27px;
+}
+.sentence{ word-spacing: 0px;}
